@@ -1,31 +1,31 @@
-html {
-    background: #81C784;
+html, body {
+    background: #81c784;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #canvasId {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border: 4px solid #519657;
+    border: 3px solid #519657;
+    /*box-shadow: 0px 1.5px 4px 1px rgba(0, 0, 0, 0.3);*/
 }
 
 li {
     color: #444444;
 }
 
-a:link {
+p {
     font-family: 'Orbitron', sans-serif;
-    color: #444444;
-}
-
-a:hover {
-    color: #FFFFFF;
-}
-
-a:active{
-    color: #82E9DE;
-}
-
-a:visited{
-    color: #444444;
+    color: #519657;
 }
